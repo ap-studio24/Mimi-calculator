@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Mimi Calculator",
+    "slug": "mimi-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#000000",
+    "platforms": [
+      "android"
+    ],
+    "android": {
+      "package": "com.apstudio24.mimicalculator",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "cover",
+          "backgroundColor": "#000000"
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-4471164720234404~1799834590"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "65ad0cfc-acd5-4976-ae17-fca41ff3ab0b"
+      }
+    }
+  }
+}
